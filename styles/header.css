@@ -1,0 +1,36 @@
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  padding: 1rem 0;
+  border-bottom: 1px solid #dedede;
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  text-transform: uppercase;
+  color: var(--color-text-dark);
+  font-size: 2rem;
+}
+
+.header-nav-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-list__item {
+  display: flex;
+  color: var(--color-text-dark);
+  font-size: 1.25rem;
+}
+
+.nav-list__item::before {
+  content: "#";
+  color: var(--color-text-accent);
+}
