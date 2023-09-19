@@ -104,6 +104,10 @@ a:hover::after {
   color: var(--color-text-dark);
 }
 
+.btn::after {
+  height: 0;
+}
+
 li {
   list-style: none;
 }
