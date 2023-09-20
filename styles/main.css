@@ -23,3 +23,36 @@ section {
 .home article img {
   width: 80%;
 }
+
+/* ========= About Me ========= */
+
+.about-me {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.about-me article {
+  display: grid;
+  grid-template-columns: 30% 35% 35%;
+  gap: 2rem;
+}
+
+.about-me article img {
+  width: 100%;
+}
+
+.about-me article h3 {
+  margin-bottom: 0.5rem;
+}
+
+.about-me article p {
+  text-indent: 0.5rem;
+}
+
+.about-me article li {
+  margin-left: 1rem;
+  list-style: circle;
+}
