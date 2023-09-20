@@ -91,3 +91,31 @@ section {
   height: 160px;
   background-color: #dedede;
 }
+
+@media screen and (max-width: 767px) {
+  .home {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2rem;
+  }
+  .home article {
+    width: 100%;
+  }
+  .home article img {
+    width: 250px;
+  }
+
+  .about-me article {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .about-me article img {
+    width: 100%;
+  }
+
+  .projects div article {
+    width: 100%;
+  }
+}

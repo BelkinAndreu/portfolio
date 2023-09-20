@@ -122,3 +122,19 @@ a:hover::after {
 li {
   list-style: none;
 }
+
+@media screen and (max-width: 767px) {
+  .container {
+    max-width: 450px;
+    padding: 2rem;
+  }
+
+  .anchor {
+    top: -159px;
+  }
+
+  h2::after,
+  h2::before {
+    width: 20px;
+  }
+}
