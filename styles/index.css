@@ -40,6 +40,16 @@ body {
   margin: 0 auto;
 }
 
+section {
+  position: relative;
+}
+
+.anchor {
+  position: absolute;
+  top: -71px;
+  left: 0;
+}
+
 h1 {
   font-weight: 700;
   font-size: 28px;
