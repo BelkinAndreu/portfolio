@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Advent+Pro:wght@400;600;700&family=Rampart+One&display=swap");
 @import url(./header.css);
 @import url(./main.css);
+@import url(./footer.css);
 
 :root {
   --font-family-advent: "Advent Pro", sans-serif;
